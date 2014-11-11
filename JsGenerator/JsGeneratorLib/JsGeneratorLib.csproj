@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9475CDCA-48EC-499C-9F4D-E61C6766520C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>JsGeneratorLib</RootNamespace>
+    <AssemblyName>JsGeneratorLib</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=c7439020c8fedf87">
+      <Package>monodevelop</Package>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Node.cs" />
+    <Compile Include="Position.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Statement.cs" />
+    <Compile Include="EmptyStatement.cs" />
+    <Compile Include="ProgramSerializer.cs" />
+    <Compile Include="SourceLocation.cs" />
+    <Compile Include="Function.cs" />
+    <Compile Include="Identifier.cs" />
+    <Compile Include="BlockStatement.cs" />
+    <Compile Include="Pattern.cs" />
+    <Compile Include="Expression.cs" />
+    <Compile Include="ReturnStatement.cs" />
+    <Compile Include="ThrowStatement.cs" />
+    <Compile Include="Declaration.cs" />
+    <Compile Include="TryStatement.cs" />
+    <Compile Include="ExpressionStatement.cs" />
+    <Compile Include="FunctionDeclaration.cs" />
+    <Compile Include="IExpression.cs" />
+    <Compile Include="INode.cs" />
+    <Compile Include="IPattern.cs" />
+    <Compile Include="IStatement.cs" />
+    <Compile Include="IDeclaration.cs" />
+    <Compile Include="VariableDeclaration.cs" />
+    <Compile Include="VariableDeclarator.cs" />
+    <Compile Include="ThisExpression.cs" />
+    <Compile Include="ArrayExpression.cs" />
+    <Compile Include="ObjectExpression.cs" />
+    <Compile Include="Property.cs" />
+    <Compile Include="FunctionExpression.cs" />
+    <Compile Include="SequenceExpression.cs" />
+    <Compile Include="UnaryExpression.cs" />
+    <Compile Include="BinaryExpression.cs" />
+    <Compile Include="AssignmentExpression.cs" />
+    <Compile Include="LogicalExpression.cs" />
+    <Compile Include="Literal.cs" />
+    <Compile Include="ConditionalExpression.cs" />
+    <Compile Include="NewExpression.cs" />
+    <Compile Include="CallExpression.cs" />
+    <Compile Include="MemberExpression.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

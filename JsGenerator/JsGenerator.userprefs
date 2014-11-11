@@ -1,0 +1,52 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="JsGeneratorLib/MemberExpression.cs">
+    <Files>
+      <File FileName="JsGeneratorLib/Program.cs" Line="2" Column="2" />
+      <File FileName="JsGeneratorLib/Statement.cs" Line="2" Column="2" />
+      <File FileName="JsGeneratorLib/EmptyStatement.cs" Line="2" Column="2" />
+      <File FileName="JsGeneratorLib/ProgramSerializer.cs" Line="3" Column="3" />
+      <File FileName="JsGeneratorLib/Node.cs" Line="6" Column="6" />
+      <File FileName="JsGeneratorConsole/Program.cs" Line="1" Column="1" />
+      <File FileName="JsGeneratorLibTest/ProgramTest.cs" Line="1" Column="1" />
+      <File FileName="JsGeneratorLib/Position.cs" Line="1" Column="1" />
+      <File FileName="JsGeneratorLib/SourceLocation.cs" Line="1" Column="1" />
+      <File FileName="JsGeneratorLib/Function.cs" Line="23" Column="23" />
+      <File FileName="JsGeneratorLib/Identifier.cs" Line="10" Column="10" />
+      <File FileName="JsGeneratorLib/UnaryExpression.cs" Line="10" Column="10" />
+      <File FileName="JsGeneratorLib/ArrayExpression.cs" Line="1" Column="1" />
+      <File FileName="JsGeneratorLib/BlockStatement.cs" Line="1" Column="1" />
+      <File FileName="JsGeneratorLib/Declaration.cs" Line="1" Column="1" />
+      <File FileName="JsGeneratorLib/Expression.cs" Line="1" Column="1" />
+      <File FileName="JsGeneratorLib/ExpressionStatement.cs" Line="1" Column="1" />
+      <File FileName="JsGeneratorLib/FunctionDeclaration.cs" Line="1" Column="1" />
+      <File FileName="JsGeneratorLib/FunctionExpression.cs" Line="1" Column="1" />
+      <File FileName="JsGeneratorLib/IDeclaration.cs" Line="1" Column="1" />
+      <File FileName="JsGeneratorLib/IExpression.cs" Line="1" Column="1" />
+      <File FileName="JsGeneratorLib/INode.cs" Line="1" Column="1" />
+      <File FileName="JsGeneratorLib/IPattern.cs" Line="1" Column="1" />
+      <File FileName="JsGeneratorLib/IStatement.cs" Line="1" Column="1" />
+      <File FileName="JsGeneratorLib/ObjectExpression.cs" Line="1" Column="1" />
+      <File FileName="JsGeneratorLib/Pattern.cs" Line="1" Column="1" />
+      <File FileName="JsGeneratorLib/Property.cs" Line="20" Column="20" />
+      <File FileName="JsGeneratorLib/ReturnStatement.cs" Line="1" Column="1" />
+      <File FileName="JsGeneratorLib/SequenceExpression.cs" Line="1" Column="1" />
+      <File FileName="JsGeneratorLib/ThisExpression.cs" Line="1" Column="1" />
+      <File FileName="JsGeneratorLib/ThrowStatement.cs" Line="1" Column="1" />
+      <File FileName="JsGeneratorLib/TryStatement.cs" Line="1" Column="1" />
+      <File FileName="JsGeneratorLib/VariableDeclaration.cs" Line="6" Column="6" />
+      <File FileName="JsGeneratorLib/BinaryExpression.cs" Line="10" Column="10" />
+      <File FileName="JsGeneratorLib/AssignmentExpression.cs" Line="10" Column="10" />
+      <File FileName="JsGeneratorLib/LogicalExpression.cs" Line="6" Column="6" />
+      <File FileName="JsGeneratorLib/Literal.cs" Line="10" Column="10" />
+      <File FileName="JsGeneratorLib/ConditionalExpression.cs" Line="10" Column="10" />
+      <File FileName="JsGeneratorLib/NewExpression.cs" Line="18" Column="18" />
+      <File FileName="JsGeneratorLib/CallExpression.cs" Line="18" Column="18" />
+      <File FileName="JsGeneratorLib/MemberExpression.cs" Line="10" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
