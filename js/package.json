@@ -9,7 +9,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "escodegen": "^1.4.1",
+    "escodegen": "^1.9.1",
     "jquery": "^3.0.0"
   }
 }
