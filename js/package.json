@@ -10,6 +10,6 @@
   "license": "MIT",
   "dependencies": {
     "escodegen": "^1.4.1",
-    "jquery": "^2.1.1"
+    "jquery": "^3.0.0"
   }
 }
